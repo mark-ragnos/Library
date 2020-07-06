@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Библтотека</string>
+    <string name="last_viewed">Последние</string>
+    <string name="m_menu_item1">Добавить</string>
+    <string name="m_menu_item2">Удалить</string>
+    <string name="i_menu_item1">Редактировать</string>
+    <string name="i_menu_item2">Поиск</string>
+    <string name="name">Название:</string>
+    <string name="author">Автор: </string>
+    <string name="description">Описание:</string>
+    <string name="cancel">Отменить</string>
+    <string name="accept">Принять</string>
+    <string name="saving_failed">Сохранение не удалось</string>
+    <string name="deleting_failed">Удаление не удалось</string>
+    <string name="adding_failed">Добавление не удалось</string>
+</resources>

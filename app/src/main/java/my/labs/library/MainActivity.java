@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity{
             intent.setAction("VIEW");
             intent.putExtra(DBHelper.COLUMN_ID, id);
             startActivityForResult(intent, getResources().getInteger(R.integer.RQ_DATA_CHANGES));
+            MainActivity t = new MainActivity();
         }
 
         @Override
