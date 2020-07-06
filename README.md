@@ -1,5 +1,6 @@
 # Library(University lab)
 
+Andorid project.
 This was one of my labs at the University.
 
 It contein two main Activity: 
