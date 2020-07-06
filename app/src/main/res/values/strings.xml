@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="last_viewed">Last viewed</string>
+    <string name="m_menu_item1">Add</string>
+    <string name="m_menu_item2">Remove</string>
+    <string name="i_menu_item1">Edit</string>
+    <string name="i_menu_item2">Find</string>
+    <string name="name">Name:</string>
+    <string name="author">Author: </string>
+    <string name="description">Description:</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="saving_failed">Saving failed</string>
+    <string name="deleting_failed">Deleting failed</string>
+    <string name="adding_failed">Adding failed</string>
+</resources>
