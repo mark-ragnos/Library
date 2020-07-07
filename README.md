@@ -11,6 +11,6 @@ Main functions:
 - add new books;
 - view and edit books info;
 - view list of books;
-- removing books.
+- delete books.
 
 Also supports two langs: Rus and Eng.
