@@ -2,10 +2,8 @@ package my.labs.library;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -16,6 +14,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
+
+import io.reactivex.rxjava3.core.Flowable;
+import io.reactivex.rxjava3.core.Observable;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity{
         listBook.setOnItemClickListener(listener);
         listBook.setOnItemLongClickListener(listener);
         listBook.setOnItemSelectedListener(listener);
+        
     }
 
     @Override
@@ -94,7 +96,7 @@ public class MainActivity extends AppCompatActivity{
 
         @Override
         public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
+            Log.d("Status", "ITEM SEL");
         }
 
         @Override
