@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity{
         listBook.setOnItemClickListener(listener);
         listBook.setOnItemLongClickListener(listener);
         listBook.setOnItemSelectedListener(listener);
-        
+
     }
 
     @Override
